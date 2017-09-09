@@ -18,7 +18,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="molok"
+let g:colors_name="molokai"
 
 let s:red       = '#fb2652'
 let s:darkred   = '#1e0010'
@@ -110,10 +110,10 @@ exe 'hi PmenuSbar       guibg=' . s:black
 "hi Debug           guifg=#BCA3A3               gui=bold
 "hi Define          guifg=#66D9EF
 "hi Delimiter       guifg=#8F8F8F
-hi DiffAdd                       guibg=#13354A
+hi DiffAdd                       guibg=#105520
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 gui=italic,bold
+hi DiffText        guifg=#ff6070 guibg=#4C4745 gui=italic,bold
 
 
 "hi Directory       guifg=#A6D22E               gui=bold
